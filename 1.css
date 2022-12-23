@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    flex-flow:row wrap;
+    text-align: center;
+}
+.wrapper >*{
+    padding:10px;
+    flex:1 100%;
+}
+.head{
+    background: tomato;
+}
+.main{
+    text-align: left;
+    background: rgb(160, 147, 147);
+}
+.aside_1{
+    background: rgb(159, 219, 159);
+}
+.aside_2{
+    background: yellow;
+}
+.footer{
+    background: magenta;
+}
+
+body{
+    padding:2em;
+}
